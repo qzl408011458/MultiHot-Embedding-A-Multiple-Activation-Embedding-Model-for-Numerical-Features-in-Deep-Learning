@@ -1,0 +1,128 @@
+{
+    "dataset": "higgs_small",
+    "algorithm": "mlp_STD",
+    "config": {
+        "data": {
+            "normalization": "quantile",
+            "path": "data/higgs_small"
+        },
+        "model": {
+            "d_layers": [
+                231,
+                121
+            ],
+            "dropout": 0.4896848511498748
+        },
+        "seed": 0,
+        "training": {
+            "batch_size": 512,
+            "eval_batch_size": 8192,
+            "lr": 0.0007537468376056318,
+            "n_epochs": 1000000000,
+            "optimizer": "adamw",
+            "patience": 16,
+            "weight_decay": 0.0
+        }
+    },
+    "environment": {
+        "devices": {
+            "CUDA_VISIBLE_DEVICES": "0,1",
+            "torch.version.cuda": "10.1",
+            "torch.backends.cudnn.version()": 7603,
+            "driver": "470.182.03"
+        }
+    },
+    "epoch_size": 123,
+    "n_parameters": 34893,
+    "best_epoch": 90,
+    "metrics": {
+        "train": {
+            "0": {
+                "precision": 0.7620200242050831,
+                "recall": 0.7023865864376986,
+                "f1-score": 0.7309891115059193,
+                "support": 29582
+            },
+            "1": {
+                "precision": 0.75189516697196,
+                "recall": 0.8043714199577932,
+                "f1-score": 0.7772485616488238,
+                "support": 33170
+            },
+            "accuracy": 0.7562946200917899,
+            "macro avg": {
+                "precision": 0.7569575955885215,
+                "recall": 0.7533790031977459,
+                "f1-score": 0.7541188365773716,
+                "support": 62752
+            },
+            "weighted avg": {
+                "precision": 0.7566681387763685,
+                "recall": 0.7562946200917899,
+                "f1-score": 0.7554413355185426,
+                "support": 62752
+            },
+            "roc_auc": 0.8442042539781554,
+            "score": 0.7562946200917899
+        },
+        "val": {
+            "0": {
+                "precision": 0.7418123072404171,
+                "recall": 0.6829367225527312,
+                "f1-score": 0.711158042942626,
+                "support": 7396
+            },
+            "1": {
+                "precision": 0.7358936817209145,
+                "recall": 0.7879884225759769,
+                "f1-score": 0.7610506085842409,
+                "support": 8292
+            },
+            "accuracy": 0.7384625191228965,
+            "macro avg": {
+                "precision": 0.7388529944806659,
+                "recall": 0.735462572564354,
+                "f1-score": 0.7361043257634334,
+                "support": 15688
+            },
+            "weighted avg": {
+                "precision": 0.7386839771277377,
+                "recall": 0.7384625191228965,
+                "f1-score": 0.7375291007129136,
+                "support": 15688
+            },
+            "roc_auc": 0.8133361076129598,
+            "score": 0.7384625191228965
+        },
+        "test": {
+            "0": {
+                "precision": 0.72183961713552,
+                "recall": 0.6689021092482423,
+                "f1-score": 0.6943633505501909,
+                "support": 9245
+            },
+            "1": {
+                "precision": 0.7228108303902925,
+                "recall": 0.77009165460685,
+                "f1-score": 0.7457025411061287,
+                "support": 10365
+            },
+            "accuracy": 0.7223865374808771,
+            "macro avg": {
+                "precision": 0.7223252237629063,
+                "recall": 0.7194968819275462,
+                "f1-score": 0.7200329458281598,
+                "support": 19610
+            },
+            "weighted avg": {
+                "precision": 0.7223529585626346,
+                "recall": 0.7223865374808771,
+                "f1-score": 0.721499031840976,
+                "support": 19610
+            },
+            "roc_auc": 0.8030860555646434,
+            "score": 0.7223865374808771
+        }
+    },
+    "time": "0:00:52"
+}
