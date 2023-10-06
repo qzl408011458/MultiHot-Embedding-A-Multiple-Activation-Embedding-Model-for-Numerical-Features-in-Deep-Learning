@@ -14,5 +14,6 @@ and ResNet. "-d" is for the selected dataset.
 
 The folder "configs" include the model configurations saved in
 the subfolders named by datasets. The most essential hyperparameters
-are inv, bins, emb_size, t in code as the same as $h, K, m, \tau$.
+are inv, bins, emb_size, t in code as the same as $h, K, m, \tau$. in 
+paper.
 
