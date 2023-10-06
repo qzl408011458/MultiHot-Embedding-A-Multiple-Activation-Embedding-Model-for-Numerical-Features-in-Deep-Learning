@@ -31,7 +31,7 @@ if __name__ == '__main__':
     config_script = f'configs/{args.d}/{args.b}+{args.m}.toml'
     output_dir = f'output/{args.d}'
 
-    if os.path.exists(output_dir):
+    if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
     os.system(f'python {model_script} {config_script} -o {output_dir} -f')
