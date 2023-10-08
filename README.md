@@ -39,9 +39,8 @@ part of output, including the following information:
 Predictions for train, validation and test sets are also saved in
 **stats.json**.
 
+## 5. Reference
 
-
-
-
+https://github.com/yandex-research/tabular-dl-revisiting-models
 
 
