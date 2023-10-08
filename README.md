@@ -10,9 +10,9 @@ repo https://github.com/yandex-research/tabular-dl-revisiting-models#33-data.
 ## 2. Configurations
 
 The folder "configs" include the model configurations saved in
-the subfolders named by datasets. The most essential hyperparameters
+the subfolders named by datasets. The most essential hyperparameters 
 _inv, bins, emb_size, t_ in code are the same as $h, K, m, \tau$ 
-in paper. All the model scripts are saved in the folder "bin"
+in paper. All the model scripts are  saved in the folder "bin"
 .
 ## 3. Model Training
 The models used in the experiments can be trained by following command:
@@ -27,7 +27,16 @@ and ResNet. "-d" is for the selected dataset. Please see run.py
 for more details about the available args.
 
 The default path of saved training results is the subfolder also
-named by dataset in "output".
+named by dataset in "output". Then **stats.json** is the most important
+part of output, including the following information:
+- metrics
+- config that was passed to the program
+- hardware info
+- execution time
+- and other information
+
+Predictions for train, validation and test sets are also saved in
+**stats.json**.
 
 
 
