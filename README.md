@@ -26,6 +26,7 @@ like AD and MH in the paper. "-b" is to select backbone like MLP
 and ResNet. "-d" is for the selected dataset. Please see run.py 
 for more details about the available args.
 
+## 4. Output
 The default path of saved training results is the subfolder also
 named by dataset in "output". Then **stats.json** is the most important
 part of output, including the following information:
