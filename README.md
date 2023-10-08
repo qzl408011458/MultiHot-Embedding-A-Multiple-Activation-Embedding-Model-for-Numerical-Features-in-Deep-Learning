@@ -12,7 +12,7 @@ repo https://github.com/yandex-research/tabular-dl-revisiting-models#33-data.
 The folder "configs" include the model configurations saved in
 the subfolders named by datasets. The most essential hyperparameters
 are inv, bins, emb_size, t in code as the same as $h, K, m, \tau$ 
-in paper. The model scripts are all saved in the folder "bin"
+in paper. All the model scripts are saved in the folder "bin"
 .
 ## 3. Model Training
 The models used in the experiments can be trained by following command:
