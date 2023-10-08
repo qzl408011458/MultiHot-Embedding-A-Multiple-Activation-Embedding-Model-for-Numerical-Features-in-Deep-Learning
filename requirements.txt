@@ -5,3 +5,4 @@ torchvision==0.8.2
 tqdm==4.59.0
 scikit-learn==0.24.1
 libzero==0.0.3.dev7
+scipy==1.6.1
