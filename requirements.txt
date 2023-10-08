@@ -1,5 +1,7 @@
+python=3.8.13
 numpy==1.19.2
 pytorch==1.7.1
+torchvision==0.8.2
 tqdm==4.59.0
 scikit-learn==0.24.1
 libzero==0.0.3.dev7
