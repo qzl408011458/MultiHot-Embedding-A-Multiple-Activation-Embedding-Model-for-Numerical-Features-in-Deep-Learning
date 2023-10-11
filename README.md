@@ -9,7 +9,7 @@ repo https://github.com/yandex-research/tabular-dl-revisiting-models#33-data.
 
 ## 2. Configurations
 
-The folder "configs" include the model configurations saved in
+The folder "configs" include the model configurations (.toml) saved in
 the subfolders named by datasets. The most essential hyperparameters 
 _inv, bins, emb_size, t_ in code are the same as $h, K, m, \tau$ 
 in paper. All the model scripts are  saved in the folder "bin"
